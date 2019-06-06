@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.ptblr_1178.project_first.fragment.UpdateFragment">
+
+
+    <TextView
+        android:id="@+id/tv_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE TASK"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/update_task_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task"
+        android:inputType="text"
+        android:singleLine="false"
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/update_desc_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Description..."
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="UPDATE"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_delete_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Delete"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
